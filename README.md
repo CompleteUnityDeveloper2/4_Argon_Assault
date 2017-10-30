@@ -5,7 +5,7 @@ This is the long-awaited sequel to the Complete Unity Developer - one of the mos
 You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo.
 
 ## By In This Section
-Detailed 2D UI, Unity's TileMap, sprites, collisions, enemy waves. C# classes, coroutines, delegates, lists and more. (Ref: AA_CU2). todo: Update with latest pedagogy.
+Instantiating At Runtime, Make Components Communicate, Create Detailed 2D UI, Use BitBucket, Using Virtual Controls, Craft C# Classes, Customise Particle Effects, Player Power Ups & More (REF: AA_CU2)
 
 ## How To Build / Compile
 This is a Unity project. If you're familiar with source control, then "clone this repo". Otherwise download the contents, and navigate to `Assets > Levels` then open any `.unity` file.
@@ -16,8 +16,6 @@ This branch is the course branch, each commit corresponds to a lecture in the co
 Here are the lectures of the course for this section...
 
 ### 1 Welcome To Section 4 ###
-1. This game is based on classics like Xenon Megablast, Steredenn, Rtype II, Envoy & 1942.
-2. We will be using Unity 2017's new TileMap 2D facilities.
-
-### 2 Argon Assault Game Design ###
-1.
+1. This game is based on classics like Star Fox and Panzer Dragoon.
+2. We will be using Unity 2017's brand-new Timeline facility.
+3. This will be fast-paced fun rail-shooter.
