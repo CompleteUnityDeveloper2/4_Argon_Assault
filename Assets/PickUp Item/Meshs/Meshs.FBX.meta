@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: beea3695cf8bbdd4f8bba3f0b3953eda
+timeCreated: 1504690367
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box02
+    100004: Coin
+    100006: Dollar
+    100008: Heart
+    100010: //RootNode
+    100012: Points
+    100014: Question
+    100016: Shield
+    100018: Speed
+    100020: SPQR 02
+    100022: SPQR01
+    100024: Star
+    100026: Upgrade
+    400000: Box01
+    400002: Box02
+    400004: Coin
+    400006: Dollar
+    400008: Heart
+    400010: //RootNode
+    400012: Points
+    400014: Question
+    400016: Shield
+    400018: Speed
+    400020: SPQR 02
+    400022: SPQR01
+    400024: Star
+    400026: Upgrade
+    2300000: Box01
+    2300002: Box02
+    2300004: Coin
+    2300006: Dollar
+    2300008: Heart
+    2300010: Points
+    2300012: Question
+    2300014: Shield
+    2300016: Speed
+    2300018: SPQR 02
+    2300020: SPQR01
+    2300022: Star
+    2300024: Upgrade
+    3300000: Box01
+    3300002: Box02
+    3300004: Coin
+    3300006: Dollar
+    3300008: Heart
+    3300010: Points
+    3300012: Question
+    3300014: Shield
+    3300016: Speed
+    3300018: SPQR 02
+    3300020: SPQR01
+    3300022: Star
+    3300024: Upgrade
+    4300000: Box01
+    4300002: Box02
+    4300004: Coin
+    4300006: Dollar
+    4300008: Heart
+    4300010: Points
+    4300012: Question
+    4300014: Shield
+    4300016: Speed
+    4300018: SPQR 02
+    4300020: SPQR01
+    4300022: Star
+    4300024: Upgrade
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
