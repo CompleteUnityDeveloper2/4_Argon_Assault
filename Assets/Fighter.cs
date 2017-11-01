@@ -6,17 +6,24 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Fighter : MonoBehaviour {
 
-    [SerializeField] float xSpeed = 3f;
-    [SerializeField] float rollFactor = 10f;
+    [SerializeField] float xClampMin = -2.9f;
+    [SerializeField] float xClampMax = 3.9f;
 
-    float controlThrow;
+    [SerializeField] float yClampMin = -2.9f;
+    [SerializeField] float yClampMax = 3.9f;
 
-    Vector3 initialOffsetFromCamera;
+    [SerializeField] float xSpeed = 10f;
+    [SerializeField] float ySpeed = 10f;
+
+    [SerializeField] float rollFactor = 25f;
+    [SerializeField] float pitchFactor = 25f;
+
+    float xThrow, yThrow;
 
 	// Use this for initialization
 	void Start () {
-        initialOffsetFromCamera = transform.localPosition;
-	}
+   
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -26,15 +33,23 @@ public class Fighter : MonoBehaviour {
 
     private void RotateShip()
     {
-        transform.localRotation = Quaternion.Euler(0, 0, -controlThrow * rollFactor);
+        transform.localRotation = Quaternion.Euler(-yThrow * pitchFactor, 0, -xThrow * rollFactor);
     }
 
     private void ProcessTranslation()
     {
-        controlThrow = CrossPlatformInputManager.GetAxis("Horizontal");
-        float xOffset = controlThrow * xSpeed * Time.deltaTime;
+        xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
+        yThrow = CrossPlatformInputManager.GetAxis("Vertical");
+
+        float xOffset = xThrow * xSpeed * Time.deltaTime;
+        float yOffset = yThrow * ySpeed * Time.deltaTime;
+
         float currentX = transform.localPosition.x;
-        float newXPos = Mathf.Clamp(currentX + xOffset, -2.9f, 3.9f); // todo expose
-        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
+        float newX = Mathf.Clamp(currentX + xOffset, xClampMin, xClampMax);
+
+        float currentY = transform.localPosition.y;
+        float newY = Mathf.Clamp(currentY + yOffset, yClampMin, yClampMax);
+
+        transform.localPosition = new Vector3(newX, newY, transform.localPosition.z);
     }
 }
