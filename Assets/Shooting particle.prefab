@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 198002691405052966}
   - component: {fileID: 199571535930062004}
   - component: {fileID: 114366382822290420}
+  - component: {fileID: 114256162071135458}
   m_Layer: 0
   m_Name: Shooting particle
   m_TagString: Untagged
@@ -35,13 +36,25 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1774745131218518}
-  m_LocalRotation: {x: -0, y: -0, z: 5.8207647e-11, w: 1}
-  m_LocalPosition: {x: 3.5309393, y: 0.21703699, z: -1.002625}
+  m_LocalRotation: {x: -0, y: 0.0000000018626447, z: 0.0000000020372677, w: 1}
+  m_LocalPosition: {x: 1.2857581, y: 0.22043669, z: -1.001631}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114256162071135458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774745131218518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a85e5b6a515f94f5db458829a2fd9959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boom: {fileID: 1381933622204176, guid: 5dc054076c4584c95814b0a73c31be2c, type: 2}
 --- !u!114 &114366382822290420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,7 +74,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1774745131218518}
   serializedVersion: 5
-  lengthInSec: 4
+  lengthInSec: 3
   simulationSpeed: 1
   stopAction: 0
   looping: 1
@@ -114,14 +127,14 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -741971387
+  randomSeed: 206557841
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 3
       minScalar: 5
       maxCurve:
         serializedVersion: 2
