@@ -1897,8 +1897,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142ab489dde9244518c8deb69d81ca36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xClampMin: -6.1
+  xClampMax: 5.73
+  yClampMin: -2.9
+  yClampMax: 3.9
   xSpeed: 16.47
+  ySpeed: 10
   rollFactor: 25
+  pitchFactor: 25
+  yawFactor: 7.86
 --- !u!1001 &1858820422
 Prefab:
   m_ObjectHideFlags: 0
