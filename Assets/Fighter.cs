@@ -17,6 +17,7 @@ public class Fighter : MonoBehaviour {
 
     [SerializeField] float rollFactor = 25f;
     [SerializeField] float pitchFactor = 25f;
+    [SerializeField] float pitchOffset = 10f;
     [SerializeField] float yawFactor = 25f;
 
     float xThrow, yThrow;
@@ -34,8 +35,13 @@ public class Fighter : MonoBehaviour {
 
     private void RotateShip()
     {
-        float yaw = transform.localPosition.x * yawFactor;
-        transform.localRotation = Quaternion.Euler(-yThrow * pitchFactor,  yaw, -xThrow * rollFactor);
+        float residualYaw = transform.localPosition.x * yawFactor;
+        float residualPitch = -transform.localPosition.y * pitchOffset;
+        transform.localRotation = Quaternion.Euler(
+            -yThrow * pitchFactor + residualPitch,
+            residualYaw,
+            -xThrow * rollFactor
+        );
     }
 
     private void ProcessTranslation()
