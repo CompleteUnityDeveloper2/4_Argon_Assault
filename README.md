@@ -19,3 +19,8 @@ Here are the lectures of the course for this section...
 1. This game is based on classics like Star Fox and Panzer Dragoon.
 2. We will be using Unity 2017's brand-new Timeline facility.
 3. This will be fast-paced fun rail-shooter.
+
+### 2 Argon Assault Game Design ###
+1. A quick look at an example of a Rail Shooter.
+2. What are our core game features and priorities?
+3. Creating a prototype to answer key questions.
