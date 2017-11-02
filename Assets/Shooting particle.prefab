@@ -127,7 +127,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1633941600
+  randomSeed: -1293211214
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -215,29 +215,29 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0, g: 0.81059825, b: 0.8455882, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0, g: 0.5448277, b: 1, a: 1}
-        key1: {r: 0, g: 0.5598379, b: 0.7058823, a: 1}
-        key2: {r: 0, g: 0.95862055, b: 1, a: 1}
-        key3: {r: 0, g: 0.33793116, b: 1, a: 0}
-        key4: {r: 0, g: 0.9570536, b: 1, a: 0}
-        key5: {r: 0, g: 0.91724133, b: 1, a: 0}
-        key6: {r: 0.09558821, g: 0.5509125, b: 1, a: 0}
-        key7: {r: 0.09558821, g: 0.5509125, b: 1, a: 0}
+        key0: {r: 0.5588235, g: 0.08217994, b: 0.08217994, a: 1}
+        key1: {r: 0.5588235, g: 0.08217994, b: 0.08217994, a: 1}
+        key2: {r: 1, g: 0.6, b: 0, a: 1}
+        key3: {r: 1, g: 0.6, b: 0, a: 0}
+        key4: {r: 1, g: 0.6, b: 0, a: 0}
+        key5: {r: 0.33144015, g: 0.07396194, b: 0.5588235, a: 0}
+        key6: {r: 0.25735295, g: 0.16652249, b: 0.24357176, a: 0}
+        key7: {r: 0.29883385, g: 0, b: 0.6102941, a: 0}
         ctime0: 0
-        ctime1: 15420
-        ctime2: 23708
-        ctime3: 31804
-        ctime4: 35659
-        ctime5: 47031
-        ctime6: 65535
+        ctime1: 65535
+        ctime2: 65535
+        ctime3: 65535
+        ctime4: 65535
+        ctime5: 21588
+        ctime6: 47031
         ctime7: 65535
         atime0: 0
-        atime1: 29491
+        atime1: 65535
         atime2: 65535
         atime3: 0
         atime4: 0
@@ -245,8 +245,8 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_NumColorKeys: 7
-        m_NumAlphaKeys: 3
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -279,7 +279,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -687,7 +687,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 5
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -2696,12 +2696,12 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 0
+    enabled: 1
     ratio: 1
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2741,7 +2741,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
-    worldSpace: 0
+    worldSpace: 1
     dieWithParticles: 1
     sizeAffectsWidth: 1
     sizeAffectsLifetime: 0
@@ -2813,7 +2813,7 @@ ParticleSystem:
     widthOverTrail:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2855,7 +2855,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0, g: 0.83448267, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -3399,8 +3399,8 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d4778f0765af8e04fac784bacccba675, type: 2}
+  - {fileID: 2100000, guid: d4778f0765af8e04fac784bacccba675, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3420,7 +3420,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 4
+  m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
