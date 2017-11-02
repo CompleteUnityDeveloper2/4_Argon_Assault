@@ -11,12 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 337831424, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
   m_Name: DirectorTimeline
   m_EditorClassIdentifier: 
-  m_Id: 0
   m_NextId: 0
   m_Tracks: []
   m_FixedDuration: 0
   m_EditorSettings:
     fps: 60
-  m_UpdateMode: 0
-  m_ParameterName: 
   m_DurationMode: 0
