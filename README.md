@@ -24,3 +24,8 @@ Here are the lectures of the course for this section...
 1. A quick look at an example of a Rail Shooter.
 2. What are our core game features and priorities?
 3. Creating a prototype to answer key questions.
+
+### 3 Update Unity & Create Project ###
+1. Update to at least Unity 2017.2.
+2. Create a new 3D project.
+3. Set up your repo.
