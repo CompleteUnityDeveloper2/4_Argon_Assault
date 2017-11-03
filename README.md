@@ -29,3 +29,8 @@ Here are the lectures of the course for this section...
 1. Update to at least Unity 2017.2.
 2. Create a new 3D project.
 3. Set up your repo.
+
+### 4 Create Terrain ###
+1. Add terrain to your level.
+2. Use the raise and lower terrain tool to make mountains.
+3. Resize and reposition the terrain.
