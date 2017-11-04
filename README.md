@@ -39,3 +39,7 @@ Here are the lectures of the course for this section...
 1. Find texture assets on the Unity Asset Store.
 2. Add terrain texture, change scaling, change metalic and smoothness.
 3. Bump Maps versus Height Maps versus Normal Maps.
+
+### 6 Add A Skybox ###
+1. Procedural versus 6-sided skyboxes.
+2. Applying skybox asset to your scene.
