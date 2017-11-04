@@ -34,3 +34,8 @@ Here are the lectures of the course for this section...
 1. Add terrain to your level.
 2. Use the raise and lower terrain tool to make mountains.
 3. Resize and reposition the terrain.
+
+### 5 Texture The Terrain ###
+1. Find texture assets on the Unity Asset Store.
+2. Add terrain texture, change scaling, change metalic and smoothness.
+3. Bump Maps versus Height Maps versus Normal Maps.
