@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 6f6b397918ef75c499a826247372b18c
+timeCreated: 1484126687
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Camera
+    100004: Directional Light
+    100006: Engine
+    100008: //RootNode
+    100010: Secondary_wing
+    100012: Tertiary_Wing
+    100014: Thruster
+    100016: Thruster_End
+    100018: Weapon
+    100020: Wing
+    100022: Secondary_wing_Left
+    100024: Secondary_wing_Right (2)
+    100026: Tertiary_Wing_Left
+    100028: Tertiary_Wing_Right (2)
+    100030: Weapon_Left
+    100032: Weapon_Right (2)
+    100034: Wing_Left
+    100036: Wing_Right (2)
+    100038: 'Secondary_wing_Right '
+    100040: 'Tertiary_Wing_Right '
+    100042: 'Weapon_Right '
+    100044: 'Wing_Right '
+    400000: Body
+    400002: Camera
+    400004: Directional Light
+    400006: Engine
+    400008: //RootNode
+    400010: Secondary_wing
+    400012: Tertiary_Wing
+    400014: Thruster
+    400016: Thruster_End
+    400018: Weapon
+    400020: Wing
+    400022: Secondary_wing_Left
+    400024: Secondary_wing_Right (2)
+    400026: Tertiary_Wing_Left
+    400028: Tertiary_Wing_Right (2)
+    400030: Weapon_Left
+    400032: Weapon_Right (2)
+    400034: Wing_Left
+    400036: Wing_Right (2)
+    400038: 'Secondary_wing_Right '
+    400040: 'Tertiary_Wing_Right '
+    400042: 'Weapon_Right '
+    400044: 'Wing_Right '
+    2300000: Body
+    2300002: Engine
+    2300004: Secondary_wing
+    2300006: Tertiary_Wing
+    2300008: Thruster
+    2300010: Thruster_End
+    2300012: Weapon
+    2300014: Wing
+    2300016: Secondary_wing_Left
+    2300018: Secondary_wing_Right (2)
+    2300020: Tertiary_Wing_Left
+    2300022: Tertiary_Wing_Right (2)
+    2300024: Weapon_Left
+    2300026: Weapon_Right (2)
+    2300028: Wing_Left
+    2300030: Wing_Right (2)
+    2300032: 'Secondary_wing_Right '
+    2300034: 'Tertiary_Wing_Right '
+    2300036: 'Weapon_Right '
+    2300038: 'Wing_Right '
+    3300000: Body
+    3300002: Engine
+    3300004: Secondary_wing
+    3300006: Tertiary_Wing
+    3300008: Thruster
+    3300010: Thruster_End
+    3300012: Weapon
+    3300014: Wing
+    3300016: Secondary_wing_Left
+    3300018: Secondary_wing_Right (2)
+    3300020: Tertiary_Wing_Left
+    3300022: Tertiary_Wing_Right (2)
+    3300024: Weapon_Left
+    3300026: Weapon_Right (2)
+    3300028: Wing_Left
+    3300030: Wing_Right (2)
+    3300032: 'Secondary_wing_Right '
+    3300034: 'Tertiary_Wing_Right '
+    3300036: 'Weapon_Right '
+    3300038: 'Wing_Right '
+    4300000: Thruster_End
+    4300002: Engine
+    4300004: Body
+    4300006: Wing
+    4300008: Secondary_wing
+    4300010: Thruster
+    4300012: Weapon
+    4300014: Tertiary_Wing
+    4300016: Wing_Left
+    4300018: Secondary_wing_Left
+    4300020: Weapon_Left
+    4300022: Tertiary_Wing_Left
+    4300024: Tertiary_Wing_Right (2)
+    4300026: Weapon_Right (2)
+    4300028: Secondary_wing_Right (2)
+    4300030: Wing_Right (2)
+    4300032: 'Tertiary_Wing_Right '
+    4300034: 'Weapon_Right '
+    4300036: 'Secondary_wing_Right '
+    4300038: 'Wing_Right '
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

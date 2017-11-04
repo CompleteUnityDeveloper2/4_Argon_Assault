@@ -43,3 +43,8 @@ Here are the lectures of the course for this section...
 ### 6 Add A Skybox ###
 1. Procedural versus 6-sided skyboxes.
 2. Applying skybox asset to your scene.
+
+### 7 Add Player Ship ###
+1. Some performance tweaks to help avoid slowdowns.
+2. Downloading asset pack for space ship.
+3. Building modular spaceship.
