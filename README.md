@@ -53,3 +53,8 @@ Here are the lectures of the course for this section...
 1. What a splash screen is.
 2. Make first game scene load after delay.
 3. Choose background music for your game.
+
+### 9 Playing Music Between Scenes ###
+1. About game objects getting destroyed by scene load.
+2. Ben's injection pattern for persistent music.
+3. Using `DontDestroyOnLoad`.
