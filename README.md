@@ -37,7 +37,7 @@ Here are the lectures of the course for this section...
 
 ### 5 Texture The Terrain ###
 1. Find texture assets on the Unity Asset Store.
-2. Add terrain texture, change scaling, change metalic and smoothness.
+2. Add terrain texture, change scaling, change metallic and smoothness.
 3. Bump Maps versus Height Maps versus Normal Maps.
 
 ### 6 Add A Skybox ###
@@ -48,3 +48,8 @@ Here are the lectures of the course for this section...
 1. Some performance tweaks to help avoid slowdowns.
 2. Downloading asset pack for space ship.
 3. Building modular spaceship.
+
+### 8 Setup A Splash Screen ###
+1. What a splash screen is.
+2. Make first game scene load after delay.
+3. Choose background music for your game.
