@@ -64,3 +64,8 @@ Here are the lectures of the course for this section...
 2. Setup a waypoint circuit using `WaypointCircuit.cs`.
 3. Use the `WaypointProgressTracker.cs` script.
 4. Make the camera follow a fixed path.
+
+### 11 Using Cross Platform Input ###
+1. About using virtual controls.
+2. Introducing `CrossPlatformInputManager`.
+3. Understanding control throw for keyboard and gamepad.
