@@ -57,4 +57,10 @@ Here are the lectures of the course for this section...
 ### 9 Playing Music Between Scenes ###
 1. About game objects getting destroyed by scene load.
 2. Ben's injection pattern for persistent music.
-3. Using `DontDestroyOnLoad`.
+3. Using `DontDestroyOnLoad()`.
+
+### 10 Unity’s Waypoint Utility Scripts ###
+1. Import Standard Assets > Utility.
+2. Setup a waypoint circuit using `WaypointCircuit.cs`.
+3. Use the `WaypointProgressTracker.cs` script.
+4. Make the camera follow a fixed path.
