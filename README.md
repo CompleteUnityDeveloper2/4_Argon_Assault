@@ -69,3 +69,8 @@ Here are the lectures of the course for this section...
 1. About using virtual controls.
 2. Introducing `CrossPlatformInputManager`.
 3. Understanding control throw for keyboard and gamepad.
+
+### 12 Input Sensitivity & Gravity ###
+1. How input sensitivity & gravity work.
+2. Using `[Tooltip("Handy tip")]` attribute for inspector tips.
+3. Understanding throw and movement speed.
