@@ -74,3 +74,8 @@ Here are the lectures of the course for this section...
 1. How input sensitivity & gravity work.
 2. Using `[Tooltip("Handy tip")]` attribute for inspector tips.
 3. Understanding throw and movement speed.
+
+### 13 Mathf.Clamp() To Restrict Movement ###
+1. Using `transform.localPosition`
+2. How to use `Mathf.Clamp()`
+3. Constrain our player movement to the screen.
