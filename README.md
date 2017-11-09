@@ -79,3 +79,8 @@ Here are the lectures of the course for this section...
 1. Using `transform.localPosition`
 2. How to use `Mathf.Clamp()`
 3. Constrain our player movement to the screen.
+
+### 14 Understanding Roll, Pitch & Yaw ###
+1. Getting clamped vertical movement working.
+2. Defining Roll, Pitch and Yaw.
+3. How to rotate to aim at the right place.
