@@ -84,3 +84,8 @@ Here are the lectures of the course for this section...
 1. Getting clamped vertical movement working.
 2. Defining Roll, Pitch and Yaw.
 3. How to rotate to aim at the right place.
+
+### 15 How To Set Local Rotation ###
+1. Experience order sensitivity in rotations.
+2. Using `Quaternion.Euler()`.
+3. Setting `localRotation` from code.
