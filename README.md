@@ -89,3 +89,9 @@ Here are the lectures of the course for this section...
 1. Experience order sensitivity in rotations.
 2. Using `Quaternion.Euler()`.
 3. Setting `localRotation` from code.
+
+### 16 Rotate Ship With Position & Throw ###
+1. Set pitch based on screen position.
+2. Set pitch based also on control throw.
+3. Set yaw based on screen position.
+4. Set roll based on control throw.
