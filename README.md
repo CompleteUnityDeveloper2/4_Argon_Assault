@@ -1,4 +1,4 @@
-# Complete Unity Developer 2.0 - Section 4 - Argon Assault.
+﻿# Complete Unity Developer 2.0 - Section 4 - Argon Assault.
 
 This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects, our latest teaching techniques,. You will benefit from the fact we have already taught over 250,000 students game development, many shipping commercial games as a result.
 
@@ -95,3 +95,9 @@ Here are the lectures of the course for this section...
 2. Set pitch based also on control throw.
 3. Set yaw based on screen position.
 4. Set roll based on control throw.
+
+### 17 Time To Tweak And Tune ###
+1. Tune rail speed and camera FOV.
+2. Tune ship speed, rolls, clamps.
+3. Note about 16:9 aspect ratio in game window.
+4. Tweak the rail position to give the feeling of speed.
