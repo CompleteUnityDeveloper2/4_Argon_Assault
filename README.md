@@ -112,3 +112,9 @@ Here are the lectures of the course for this section...
 2. Sending collision messages.
 3. Receiving with `OnParticleCollision()`
 4. Why knowing *where* we collided is a little harder.
+
+### 20 Out Parameters And Lists ###
+1. Using `GetCollisionEvents()` on particle systems.
+2. About out parameters (spit).
+3. Introducing C# generic lists.
+4. Using `.intersection` to determine collision location.

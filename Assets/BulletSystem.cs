@@ -6,6 +6,8 @@ public class BulletSystem : MonoBehaviour {
 
     void OnParticleCollision(GameObject other)
     {
-        print(other);
+        List<ParticleCollisionEvent> collisionEvents = new List<ParticleCollisionEvent>();
+        GetComponent<ParticleSystem>().GetCollisionEvents(other, collisionEvents);
+        print(collisionEvents[0].intersection);
     }
 }
