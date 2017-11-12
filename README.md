@@ -101,3 +101,8 @@ Here are the lectures of the course for this section...
 2. Tune ship speed, rolls, clamps.
 3. Note about 16:9 aspect ratio in game window.
 4. Tweak the rail position to give the feeling of speed.
+
+### 18 Create Bullet Particles ###
+1. Use particles to visualise where our ship is shooting.
+2. Introduction to Unity's particle systems.
+3. Create particle system that looks like bullets or lasers.
