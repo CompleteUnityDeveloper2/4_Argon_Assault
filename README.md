@@ -106,3 +106,9 @@ Here are the lectures of the course for this section...
 1. Use particles to visualise where our ship is shooting.
 2. Introduction to Unity's particle systems.
 3. Create particle system that looks like bullets or lasers.
+
+### 19 3D Particle Collision & Messages ###
+1. How to make particles collide in 3D.
+2. Sending collision messages.
+3. Receiving with `OnParticleCollision()`
+4. Why knowing *where* we collided is a little harder.

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.119149886, g: 0.15470845, b: 0.1182419, a: 1}
+  m_IndirectSpecularColor: {r: 0.11931413, g: 0.15471491, b: 0.11833411, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -393,6 +393,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &954619689 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1234473006561594, guid: af881ba020e89d549b36d907c72512ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610121030}
+--- !u!114 &954619693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954619689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832a1e281fb124b8380996f4bd518aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &975424849
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +479,26 @@ Prefab:
     - target: {fileID: 1234473006561594, guid: af881ba020e89d549b36d907c72512ff, type: 2}
       propertyPath: m_Name
       value: Bullets (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: randomSeed
+      value: -1657876100
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af881ba020e89d549b36d907c72512ff, type: 2}
@@ -747,9 +783,45 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: randomSeed
+      value: -377673228
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198318033176522318, guid: af881ba020e89d549b36d907c72512ff,
+        type: 2}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af881ba020e89d549b36d907c72512ff, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1698158700 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1234473006561594, guid: af881ba020e89d549b36d907c72512ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 1028126625}
+--- !u!114 &1698158704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698158700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832a1e281fb124b8380996f4bd518aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1897930376
 Prefab:
   m_ObjectHideFlags: 0
