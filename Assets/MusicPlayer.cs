@@ -5,9 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class MusicPlayer : MonoBehaviour {
 
+    static GameObject theOne;
+
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //int musicPlayerCount = FindObjectsOfType<MusicPlayer>().Length;
+        if (!theOne)
+        {
+
+            theOne = gameObject;
+            DontDestroyOnLoad(gameObject);
+
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Use this for initialization
