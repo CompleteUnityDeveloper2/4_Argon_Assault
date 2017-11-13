@@ -118,3 +118,9 @@ Here are the lectures of the course for this section...
 2. About out parameters (spit).
 3. Introducing C# generic lists.
 4. Using `.intersection` to determine collision location.
+
+### 21 Instantiating Game Objects In C# ###
+1. Setup an explosion prefab.
+2. Use `Instantiate()` to create at runtime.
+3. Keep hierarchy tidy with parent object.
+3. Use `transform.parent` to child explosions.

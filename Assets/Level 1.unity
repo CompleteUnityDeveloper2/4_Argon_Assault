@@ -409,6 +409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832a1e281fb124b8380996f4bd518aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 1149288400946934, guid: 1fb2688f7af004e8ca6e4c80789387d3,
+    type: 2}
+  parent: {fileID: 1414530865}
 --- !u!1 &975424849
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +574,7 @@ GameObject:
   - component: {fileID: 1253063705}
   - component: {fileID: 1253063704}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Launch Pad?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -744,6 +747,34 @@ MonoBehaviour:
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 1369191577}
+--- !u!1 &1414530864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1414530865}
+  m_Layer: 0
+  m_Name: Explosions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414530865
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1414530864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1610121030
 Prefab:
   m_ObjectHideFlags: 0
@@ -822,6 +853,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832a1e281fb124b8380996f4bd518aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 1149288400946934, guid: 1fb2688f7af004e8ca6e4c80789387d3,
+    type: 2}
+  parent: {fileID: 1414530865}
 --- !u!1001 &1897930376
 Prefab:
   m_ObjectHideFlags: 0
