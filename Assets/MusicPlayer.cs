@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MusicPlayer : MonoBehaviour {
 
@@ -9,27 +8,14 @@ public class MusicPlayer : MonoBehaviour {
 
     private void Awake()
     {
-        //int musicPlayerCount = FindObjectsOfType<MusicPlayer>().Length;
-        if (!theOne)
-        {
-
-            theOne = gameObject;
-            DontDestroyOnLoad(gameObject);
-
-        }
-        else
+        int musicPlayerCount = FindObjectsOfType<MusicPlayer>().Length;
+        if (musicPlayerCount > 1)
         {
             Destroy(gameObject);
         }
-    }
-
-    // Use this for initialization
-    void Start () {
-        Invoke("LoadFirstScene", 2f);
-	}
-	
-    void LoadFirstScene()
-    {
-        SceneManager.LoadScene(1);
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }
