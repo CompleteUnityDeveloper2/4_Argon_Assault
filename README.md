@@ -106,3 +106,8 @@ Here are the lectures of the course for this section...
 1. Use particles to visualise where our ship is shooting.
 2. Introduction to Unity's particle systems.
 3. Create particle system that looks like bullets or lasers.
+
+### 19 Explosion Particles & SFX ###
+1. Create explosion particle effect.
+2. Attach SFX component to explosion particle.
+3. Use more of the particle system modules.
