@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: eb1625d1c61c79e4da85a39a1f877bc6
+timeCreated: 1502608023
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Part_00
+    100002: Part_01
+    100004: Part_02
+    100006: Part_03
+    100008: Part_04
+    100010: Part_05
+    100012: Part_06
+    100014: Part_07
+    100016: Part_08
+    100018: Part_09
+    100020: Part_10
+    100022: Part_11
+    100024: Part_12
+    100026: Part_13
+    100028: Part_14
+    100030: Part_15
+    100032: Part_16
+    100034: Part_17
+    100036: //RootNode
+    400000: Part_00
+    400002: Part_01
+    400004: Part_02
+    400006: Part_03
+    400008: Part_04
+    400010: Part_05
+    400012: Part_06
+    400014: Part_07
+    400016: Part_08
+    400018: Part_09
+    400020: Part_10
+    400022: Part_11
+    400024: Part_12
+    400026: Part_13
+    400028: Part_14
+    400030: Part_15
+    400032: Part_16
+    400034: Part_17
+    400036: //RootNode
+    2300000: Part_00
+    2300002: Part_01
+    2300004: Part_02
+    2300006: Part_03
+    2300008: Part_04
+    2300010: Part_05
+    2300012: Part_06
+    2300014: Part_07
+    2300016: Part_08
+    2300018: Part_09
+    2300020: Part_10
+    2300022: Part_11
+    2300024: Part_12
+    2300026: Part_13
+    2300028: Part_14
+    2300030: Part_15
+    2300032: Part_16
+    2300034: Part_17
+    3300000: Part_00
+    3300002: Part_01
+    3300004: Part_02
+    3300006: Part_03
+    3300008: Part_04
+    3300010: Part_05
+    3300012: Part_06
+    3300014: Part_07
+    3300016: Part_08
+    3300018: Part_09
+    3300020: Part_10
+    3300022: Part_11
+    3300024: Part_12
+    3300026: Part_13
+    3300028: Part_14
+    3300030: Part_15
+    3300032: Part_16
+    3300034: Part_17
+    4300000: Part_00
+    4300002: Part_17
+    4300004: Part_02
+    4300006: Part_03
+    4300008: Part_04
+    4300010: Part_05
+    4300012: Part_06
+    4300014: Part_07
+    4300016: Part_08
+    4300018: Part_09
+    4300020: Part_10
+    4300022: Part_11
+    4300024: Part_12
+    4300026: Part_13
+    4300028: Part_14
+    4300030: Part_15
+    4300032: Part_01
+    4300034: Part_16
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

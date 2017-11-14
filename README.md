@@ -111,3 +111,8 @@ Here are the lectures of the course for this section...
 1. Create explosion particle effect.
 2. Attach SFX component to explosion particle.
 3. Use more of the particle system modules.
+
+### 20 Dodge And Shoot ###
+1. Create obstacles to avoid.
+2. Create placeholder enemies for the player to aim at and shoot.
+3. Create 10-20 seconds of gameplay setup, ready for our functionality.
