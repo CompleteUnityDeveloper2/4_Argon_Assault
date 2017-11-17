@@ -116,3 +116,14 @@ Here are the lectures of the course for this section...
 1. Create obstacles to avoid.
 2. Create placeholder enemies for the player to aim at and shoot.
 3. Create 10-20 seconds of gameplay setup, ready for our functionality.
+
+### 21 Project Tidying Checklist ###
+In this video (objectives)...
+1. Organise Assets folder.
+2. Check right game objects have prefabs.
+3. Scan read code looking for major errors.
+4. Discuss idea of running the game from any scene.
+
+After watching (learning outcomes)...
+
+When returning to a project, or switching modes from designer to coder, you should be able to tidy your project, and feel ready to dive back into the code.
