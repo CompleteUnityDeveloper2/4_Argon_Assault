@@ -127,3 +127,13 @@ In this video (objectives)...
 After watching (learning outcomes)...
 
 When returning to a project, or switching modes from designer to coder, you should be able to tidy your project, and feel ready to dive back into the code.
+
+### 22 Triggers & Collisions In Unity ###
+In this video (objectives)...
+1. Attempt to detect collisions with the terrain.
+2. Explore Unity (and Ben's) collision matrix.
+3. Discuss static, rigidbody and kinematic rigidbody colliders.
+4. Use `OnTriggerEnter()` to detect player hitting things.
+
+After watching (learning outcomes)...
+Determine what sort of colliers to add to in order to raise collision and trigger messages.
