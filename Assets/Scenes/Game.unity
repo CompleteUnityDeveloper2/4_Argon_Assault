@@ -145,6 +145,11 @@ Transform:
   m_Father: {fileID: 231099007}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &179621863 stripped
+ParticleSystem:
+  m_PrefabParentObject: {fileID: 198548522125353654, guid: 882bd3ffcc8abb04b9beb37f188bdd55,
+    type: 2}
+  m_PrefabInternal: {fileID: 320105377}
 --- !u!4 &204258118 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -403,6 +408,79 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95902ce0df1462841b991d8f08ebec7b, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &320105377
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 306371961}
+    m_Modifications:
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202103175991400, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82749087636956028, guid: 882bd3ffcc8abb04b9beb37f188bdd55,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835572865401408, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 198548522125353654, guid: 882bd3ffcc8abb04b9beb37f188bdd55,
+        type: 2}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198548522125353654, guid: 882bd3ffcc8abb04b9beb37f188bdd55,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1095181539
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 882bd3ffcc8abb04b9beb37f188bdd55, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &550077420
 GameObject:
@@ -817,6 +895,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1185414900 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1202103175991400, guid: 882bd3ffcc8abb04b9beb37f188bdd55,
+    type: 2}
+  m_PrefabInternal: {fileID: 320105377}
 --- !u!1 &1204622893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1361,16 @@ Prefab:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114252264640958028, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: deathParticles
+      value: 
+      objectReference: {fileID: 179621863}
+    - target: {fileID: 114252264640958028, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 1185414900}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
   m_IsPrefabParent: 0

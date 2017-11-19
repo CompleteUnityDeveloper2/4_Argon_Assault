@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -15,7 +16,10 @@ public class Player : MonoBehaviour {
     [SerializeField] float positionYawFactor = 5f;
     [SerializeField] float controlRollFactor = -20f;
 
+    [SerializeField] GameObject deathEffect;
+
     float xThrow, yThrow;
+    bool isDying = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,14 +28,30 @@ public class Player : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        print ("Player triggered something");   
+        StartDeathSequence();
     }
 	
-	// Update is called once per frame
-	void Update ()
+    private void StartDeathSequence()
     {
-        ProcessTranslation();
-        ProcessRotation();
+        if (isDying) { return; }
+        isDying = true;
+        deathEffect.SetActive(true);
+        Invoke("ReloadLevel", 1f);
+    }
+
+    private void ReloadLevel()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (!isDying)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+        }
     }
 
     private void ProcessRotation()
