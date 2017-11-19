@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
-using UnityEngine.SceneManagement; // todo strip-out
+using UnityEngine.SceneManagement; // ok all the time this is the only game object that loads scenes
 
 public class Player : MonoBehaviour {
 
@@ -24,15 +24,16 @@ public class Player : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        StartDeathSequence();
+        StartCoroutine(StartDeathSequence());
     }
 	
-    private void StartDeathSequence()
+    private IEnumerator StartDeathSequence()
     {
-        if (isDying) { return; }
+        if (isDying) { yield return null; }
         isDying = true;
         SetDeathState();
-        Invoke("ReloadLevel", 1f);
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(1);
     }
 
     private void SetDeathState()
@@ -42,11 +43,6 @@ public class Player : MonoBehaviour {
         {
             gun.SetActive(false);
         }
-    }
-
-    private void ReloadLevel()
-    {
-        SceneManager.LoadScene(1);
     }
 
     // Update is called once per frame
