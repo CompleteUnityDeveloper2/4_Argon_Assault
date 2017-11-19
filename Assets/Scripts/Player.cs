@@ -17,14 +17,10 @@ public class Player : MonoBehaviour {
     [SerializeField] float controlRollFactor = -20f;
 
     [SerializeField] GameObject deathEffect;
+    [SerializeField] GameObject[] guns;
 
     float xThrow, yThrow;
     bool isDying = false;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 
     void OnTriggerEnter(Collider other)
     {
@@ -35,8 +31,17 @@ public class Player : MonoBehaviour {
     {
         if (isDying) { return; }
         isDying = true;
-        deathEffect.SetActive(true);
+        SetDeathState();
         Invoke("ReloadLevel", 1f);
+    }
+
+    private void SetDeathState()
+    {
+        deathEffect.SetActive(true);
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(false);
+        }
     }
 
     private void ReloadLevel()
