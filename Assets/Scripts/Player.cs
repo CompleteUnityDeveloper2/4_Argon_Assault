@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // todo strip-out
 
 public class Player : MonoBehaviour {
 
@@ -17,8 +17,8 @@ public class Player : MonoBehaviour {
     [SerializeField] float controlRollFactor = -20f;
 
     [SerializeField] GameObject deathEffect;
-    [SerializeField] GameObject[] guns;
-
+    [SerializeField] List<GameObject> guns;
+   
     float xThrow, yThrow;
     bool isDying = false;
 
