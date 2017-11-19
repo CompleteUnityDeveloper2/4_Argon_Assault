@@ -136,4 +136,17 @@ In this video (objectives)...
 4. Use `OnTriggerEnter()` to detect player hitting things.
 
 After watching (learning outcomes)...
+
 Determine what sort of colliers to add to in order to raise collision and trigger messages.
+
+### 23 SendMessage() Between Components ###
+In this video (objectives)...
+1. Correct an error in Unity's `WaypointCircuit.cs`
+2. How NOT to use "Manager" in the name of your scripts.
+3. Create a new `CollisionHandler` component.
+4. Rename our `Player` to `PlayerController`.
+5. Use `SendMessage()` to communicate between components.
+
+After watching (learning outcomes)...
+
+Create a new well-named component to prevent your existing component code from getting too large.
