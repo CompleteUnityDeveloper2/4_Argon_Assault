@@ -24,25 +24,27 @@ public class Player : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(StartDeathSequence());
+        StartCoroutine(DeathSequence());
     }
 	
-    private IEnumerator StartDeathSequence()
+    private IEnumerator DeathSequence()
     {
         if (isDying) { yield return null; }
         isDying = true;
-        SetDeathState();
+        StartCoroutine(SubDeathSequence());
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(1);
     }
 
-    private void SetDeathState()
+    private IEnumerator SubDeathSequence()
     {
         deathEffect.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
         foreach (GameObject gun in guns)
         {
             gun.SetActive(false);
         }
+        yield return null;
     }
 
     // Update is called once per frame
