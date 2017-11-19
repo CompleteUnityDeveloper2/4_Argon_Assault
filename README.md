@@ -151,7 +151,7 @@ After watching (learning outcomes)...
 
 Create a new well-named component to prevent your existing component code from getting too large.
 
-### 24 Enable A Gameobject From C#  ###
+### 24 Enable A Gameobject From C# ###
 In this video (objectives)...
 1. Attached our bundled VFX and SFX prefab to the player.
 2. Show consequence of disabling in the Inspector.
@@ -160,3 +160,13 @@ In this video (objectives)...
 After watching (learning outcomes)...
 
 Enable a game object from C#, useful for combined special effects (FX) prefabs.
+
+### 25 Singleton Pattern Without Statics ###
+In this video (objectives)...
+1. Over the singleton pattern as it applies to the Music Player.
+2. Pseudocode the logic.
+3. Use `FindObjectsOfType()`.
+
+After watching (learning outcomes)...
+
+Setup a singleton pattern for self-destroying objects in Unity, without using the concepts of static variables.
