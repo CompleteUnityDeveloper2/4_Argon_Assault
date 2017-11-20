@@ -181,3 +181,15 @@ Setup a singleton pattern for self-destroying objects in Unity, without using th
 **After watching (learning outcomes)…**
 
 Use particle systems as bullet streams, and detect the collisions with game objects (e.g. enemies)
+
+
+### 27 Making Scripts Add Components ###
+**In this video (objectives)…**
+
+1. Remove colliders from asset pack prefabs, returning to vanilla state.
+2. Arrange for enemies to add their own colliders on start.
+
+
+**After watching (learning outcomes)…**
+
+Arrange for game objects to add their own required components at run time, reducing their dependency on assets being setup a particular way.

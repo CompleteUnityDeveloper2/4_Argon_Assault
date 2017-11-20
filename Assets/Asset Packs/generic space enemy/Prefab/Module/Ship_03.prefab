@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4990607877152018}
   - component: {fileID: 33830965679388596}
   - component: {fileID: 23413581245250402}
-  - component: {fileID: 65084038274392902}
   m_Layer: 0
   m_Name: Ship_03
   m_TagString: Untagged
@@ -83,15 +82,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1074994750746910}
   m_Mesh: {fileID: 4300002, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
---- !u!65 &65084038274392902
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6466488, y: 0.6331278, z: 0.09151092}
-  m_Center: {x: 0, y: 0.0000019073486, z: 0}
