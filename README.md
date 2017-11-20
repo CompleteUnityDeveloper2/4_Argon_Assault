@@ -137,7 +137,7 @@ In this video (objectives)...
 
 After watching (learning outcomes)...
 
-Determine what sort of colliers to add to in order to raise collision and trigger messages.
+Determine what sort of colliders to add to in order to raise collision and trigger messages.
 
 ### 23 SendMessage() Between Components ###
 In this video (objectives)...
@@ -170,3 +170,14 @@ In this video (objectives)...
 After watching (learning outcomes)...
 
 Setup a singleton pattern for self-destroying objects in Unity, without using the concepts of static variables.
+
+### 26 Detecting Particle Collisions ###
+**In this video (objectives)…**
+
+1. Turn on World collisions on our particle system.
+2. Ensure our enemies have **non-trigger** colliders.
+3. Use 'OnParticleCollision()' to detect collision.
+
+**After watching (learning outcomes)…**
+
+Use particle systems as bullet streams, and detect the collisions with game objects (e.g. enemies)
