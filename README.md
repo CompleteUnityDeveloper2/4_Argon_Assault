@@ -193,3 +193,17 @@ Use particle systems as bullet streams, and detect the collisions with game obje
 **After watching (learning outcomes)…**
 
 Arrange for game objects to add their own required components at run time, reducing their dependency on assets being setup a particular way.
+
+
+### 28 Instantiating At Runtime ###
+**In this video (objectives)…**
+
+1. Discuss how to recreate our explosion prefab.
+2. Why we use prefabs differently for the enemies.
+3. Instantiate an explosion on enemy death.
+4. Make the explosion FX self-destruct.
+
+
+**After watching (learning outcomes)…**
+
+Instantiate game objects at run time, parent them to in the hierarchy, and chose their position in world space.
