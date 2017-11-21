@@ -13,6 +13,7 @@ public class ScoreBoard : MonoBehaviour {
     void Start()
     {
         scoreText = GetComponent<Text>();
+        scoreText.text = score.ToString();
     }
 
     public void ScoreHit()
