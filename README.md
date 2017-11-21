@@ -219,3 +219,16 @@ Instantiate game objects at run time, parent them to in the hierarchy, and chose
 **After watching (learning outcomes)…**
 
 Add UI text elements to the game, and position and scale them. Also find and use free custom fonts.
+
+
+### 30 A ScoreBoard Class ###
+**In this video (objectives)…**
+
+1. Overview what a class is in programming.
+2. Add `ScoreBoard.cs` to our UI text.
+3. Write our first `public` method.
+
+
+**After watching (learning outcomes)…**
+
+Describe in basic terms what a class is in Object Oriented Programming (OOP).
