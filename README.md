@@ -207,3 +207,15 @@ Arrange for game objects to add their own required components at run time, reduc
 **After watching (learning outcomes)…**
 
 Instantiate game objects at run time, parent them to in the hierarchy, and chose their position in world space.
+
+
+### 29 Add Simple Score UI ###
+**In this video (objectives)…**
+
+1. Add a UI text element to our game.
+2. Overview the new Canvas object.
+3. Add a score and customise the font.
+
+**After watching (learning outcomes)…**
+
+Add UI text elements to the game, and position and scale them. Also find and use free custom fonts.
