@@ -1239,8 +1239,9 @@ GameObject:
   - component: {fileID: 1347929457}
   - component: {fileID: 1347929459}
   - component: {fileID: 1347929458}
+  - component: {fileID: 1347929460}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Scoreboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1253,7 +1254,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347929456}
   m_LocalRotation: {x: -0, y: -0.0054042973, z: -0, w: 0.99998546}
-  m_LocalPosition: {x: -765, y: 495, z: -6}
+  m_LocalPosition: {x: -835.60004, y: 495.80005, z: -6.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 89740956}
@@ -1261,9 +1262,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -0.619, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -765, y: 495}
-  m_SizeDelta: {x: -1574.9, y: -1006.5}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -835.5998, y: 495.80005}
+  m_SizeDelta: {x: -1716.2, y: -1008.1}
+  m_Pivot: {x: 0.49999988, y: 0.5}
 --- !u!114 &1347929458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1303,6 +1304,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347929456}
+--- !u!114 &1347929460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347929456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665698ab9b05346f4af5d52e71a28ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsPerHit: 133
 --- !u!1 &1360367733
 GameObject:
   m_ObjectHideFlags: 0
