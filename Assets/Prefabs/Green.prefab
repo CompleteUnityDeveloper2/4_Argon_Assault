@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1074994750746910}
+  m_RootGameObject: {fileID: 1238095480485456}
   m_IsPrefabParent: 1
---- !u!1 &1074994750746910
+--- !u!1 &1238095480485456
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4990607877152018}
-  - component: {fileID: 33830965679388596}
-  - component: {fileID: 23413581245250402}
-  - component: {fileID: 95152194726053022}
-  - component: {fileID: 114583661752892732}
+  - component: {fileID: 4354848751893472}
+  - component: {fileID: 33219907115598346}
+  - component: {fileID: 23021765208169616}
+  - component: {fileID: 95514022734089352}
+  - component: {fileID: 114135581401400170}
   m_Layer: 0
-  m_Name: Purple
+  m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4990607877152018
+--- !u!4 &4354848751893472
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
-  m_LocalRotation: {x: -0.17096712, y: -0.790943, z: -0.5248124, w: 0.26410493}
-  m_LocalPosition: {x: 87.3, y: 11.3, z: 437.3}
-  m_LocalScale: {x: 20.00003, y: 20, z: 20}
+  m_GameObject: {fileID: 1238095480485456}
+  m_LocalRotation: {x: 0.19583276, y: 0.679448, z: 0.679448, w: -0.19583276}
+  m_LocalPosition: {x: 178.3, y: 12.5, z: 553}
+  m_LocalScale: {x: 30, y: 30, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 293.001, y: 217.586, z: -0.99100006}
---- !u!23 &23413581245250402
+  m_LocalEulerAnglesHint: {x: 270.02798, y: 0, z: -147.84401}
+--- !u!23 &23021765208169616
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
+  m_GameObject: {fileID: 1238095480485456}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e452c8f12eadad94b88ef3a0aa794f33, type: 2}
+  - {fileID: 2100000, guid: 79e41cf9e4ffcec479bd73a1f13912e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,41 +77,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33830965679388596
+--- !u!33 &33219907115598346
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
-  m_Mesh: {fileID: 4300002, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
---- !u!95 &95152194726053022
+  m_GameObject: {fileID: 1238095480485456}
+  m_Mesh: {fileID: 4300006, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
+--- !u!95 &95514022734089352
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
+  m_GameObject: {fileID: 1238095480485456}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114583661752892732
+--- !u!114 &114135581401400170
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1074994750746910}
+  m_GameObject: {fileID: 1238095480485456}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 076a98319c9b14cdbaca8494324b8d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
-  parent: {fileID: 0}
-  scorePerHit: 12
+  parent: {fileID: 4642020657544732, guid: 06f4ba09a865745ddb350c85091644aa, type: 2}
+  scorePerHit: 100

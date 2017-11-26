@@ -6,16 +6,17 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     [SerializeField] GameObject deathFX;
-    [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 12;
 
     ScoreBoard scoreBoard;
+    Transform parent;
 
 	// Use this for initialization
 	void Start ()
     {
         AddBoxCollider();
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        parent = GameObject.FindWithTag("Spawn").transform;
     }
 
     private void AddBoxCollider()
