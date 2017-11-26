@@ -243,3 +243,14 @@ Describe in basic terms what a class is in Object Oriented Programming (OOP).
 **After watching (learning outcomes)…**
 
 Separate a script into two, and arrange for them to find and and communicate with one another in a basic way.
+
+
+### 32 Back-pedalling With Version Control ###
+**In this video (objectives)…**
+
+1. Use `git stash` to safely discard our changes.
+2. Use branch and reset to discard multiple commits.
+
+**After watching (learning outcomes)…**
+
+Restore a project that has been tracked under version control to a previous commit safely.
