@@ -1080,6 +1080,11 @@ Transform:
   m_Father: {fileID: 231099007}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1159789114 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1166301017191408, guid: 6b2f6692602716a49bcce1133bba67e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1265693249}
 --- !u!1 &1183428120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1161,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1369191577}
     m_Modifications:
+    - target: {fileID: 114642851414607014, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4765256838916578, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.26
@@ -1187,6 +1197,28 @@ Prefab:
     - target: {fileID: 4765256838916578, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714845126458852, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
+      propertyPath: m_Name
+      value: Gun Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166301017191408, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 114642851414607014, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1931256314}
+    - target: {fileID: 114642851414607014, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 1159789114}
+    - target: {fileID: 1661168204961546, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
@@ -1539,6 +1571,11 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 12
+--- !u!1 &1931256314 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1714845126458852, guid: 6b2f6692602716a49bcce1133bba67e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1265693249}
 --- !u!1001 &1985836197
 Prefab:
   m_ObjectHideFlags: 0

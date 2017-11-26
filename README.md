@@ -254,3 +254,17 @@ Separate a script into two, and arrange for them to find and and communicate wit
 **After watching (learning outcomes)…**
 
 Restore a project that has been tracked under version control to a previous commit safely.
+
+
+### 33 Iterating With foreach ###
+**In this video (objectives)…**
+
+1. Setup an input Button for "Fire"
+2. Expose an array of game objects to the Inspector.
+3. Automatically iterate over the array using `foreach`
+4. Give player ability to start and stop guns.
+
+
+**After watching (learning outcomes)…**
+
+Use a `foreach` loop to iterate over an entire collection automatically.
