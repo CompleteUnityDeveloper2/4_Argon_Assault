@@ -164,7 +164,7 @@ Animator:
   m_GameObject: {fileID: 195213347}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53a39f11cfb1e43eda84102415bce376, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1207,7 +1207,7 @@ Prefab:
     - target: {fileID: 320011935559620604, guid: 296fd98210cdd4e4e80f20fbd3609cc7,
         type: 2}
       propertyPath: m_SceneBindings.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 320011935559620604, guid: 296fd98210cdd4e4e80f20fbd3609cc7,
         type: 2}
@@ -1294,6 +1294,17 @@ Prefab:
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 149879270}
+    - target: {fileID: 320011935559620604, guid: 296fd98210cdd4e4e80f20fbd3609cc7,
+        type: 2}
+      propertyPath: m_SceneBindings.Array.data[4].key
+      value: 
+      objectReference: {fileID: 114127547805752864, guid: 9f634f532f6864c279ea535a4c460362,
+        type: 2}
+    - target: {fileID: 320011935559620604, guid: 296fd98210cdd4e4e80f20fbd3609cc7,
+        type: 2}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 195213347}
     m_RemovedComponents:
     - {fileID: 95626241544931492, guid: 296fd98210cdd4e4e80f20fbd3609cc7, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 296fd98210cdd4e4e80f20fbd3609cc7, type: 2}
