@@ -30,6 +30,6 @@ public class Enemy : MonoBehaviour {
         scoreBoard.ScoreHit(scorePerHit);
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
-        Destroy(gameObject); 
+        gameObject.SetActive(false);
     }
 }
