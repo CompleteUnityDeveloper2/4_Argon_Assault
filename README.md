@@ -1,10 +1,10 @@
 ﻿# Complete Unity Developer 2.0 - Section 4 - Argon Assault.
 
-This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects, our latest teaching techniques,. You will benefit from the fact we have already taught over 250,000 students game development, many shipping commercial games as a result.
+This is the long-awaited sequel to the Complete Unity Developer - one of the most successful e-learning courses on the internet! Completely re-worked from scratch with brand-new projects and our latest teaching techniques. You will benefit from the fact we have already taught over 300,000 students game development, many shipping commercial games as a result.
 
 You're welcome to download, fork or do whatever else legal with all the files! The real value is in our huge, high-quality online tutorials that accompany this repo.
 
-## By In This Section
+## In This Section
 Instantiating At Runtime, Make Components Communicate, Create Detailed 2D UI, Use BitBucket, Using Virtual Controls, Craft C# Classes, Customise Particle Effects, Player Power Ups & More (REF: AA_CU2)
 
 ## How To Build / Compile
@@ -232,3 +232,14 @@ Add UI text elements to the game, and position and scale them. Also find and use
 **After watching (learning outcomes)…**
 
 Describe in basic terms what a class is in Object Oriented Programming (OOP).
+
+### 31 Introducing Encapsulation ###
+**In this video (objectives)…**
+
+1. Ensure our Canvas Scaler is set correctly.
+2. Use `FindObjectOfType()` to find the `scoreBoard`.
+3. Communicate between enemy and scoreboard.
+
+**After watching (learning outcomes)…**
+
+Separate a script into two, and arrange for them to find and and communicate with one another in a basic way.
