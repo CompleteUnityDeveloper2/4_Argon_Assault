@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11931413, g: 0.15471491, b: 0.11833411, a: 1}
+  m_IndirectSpecularColor: {r: 0.119149886, g: 0.15470845, b: 0.1182419, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -164,6 +164,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 100
+  hits: 10
 --- !u!1 &195213347 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -183,6 +184,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 100
+  hits: 10
 --- !u!4 &204258118 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -631,6 +633,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 100
+  hits: 10
 --- !u!4 &608920002 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4990607877152018, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -655,6 +658,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 100
+  hits: 10
 --- !u!1001 &624910750
 Prefab:
   m_ObjectHideFlags: 0
@@ -1418,6 +1422,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 12
+  hits: 10
 --- !u!1001 &1582887955
 Prefab:
   m_ObjectHideFlags: 0
@@ -1547,6 +1552,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 12
+  hits: 10
 --- !u!4 &1856281793 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1571,6 +1577,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 12
+  hits: 10
 --- !u!1 &1931256314 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1714845126458852, guid: 6b2f6692602716a49bcce1133bba67e3,
@@ -1670,6 +1677,7 @@ MonoBehaviour:
   deathFX: {fileID: 1653070364331330, guid: f752e05fe3fc84632a95bf6c12ac0d9e, type: 2}
   parent: {fileID: 1360367734}
   scorePerHit: 100
+  hits: 10
 --- !u!1 &2028413200
 GameObject:
   m_ObjectHideFlags: 0

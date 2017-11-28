@@ -268,3 +268,16 @@ Restore a project that has been tracked under version control to a previous comm
 **After watching (learning outcomes)…**
 
 Use a `foreach` loop to iterate over an entire collection automatically.
+
+
+### 34 Enemy Health System ###
+**In this video (objectives)…**
+
+1. Create a system for storing enemy hitpoints.
+2. Decrement enemy hitpoints when hit by player bullet.
+3. Kill enemy when hitpoints are below 1.
+
+
+**After watching (learning outcomes)…**
+
+Set up a simple health system that decrements when hit by player bullets.
