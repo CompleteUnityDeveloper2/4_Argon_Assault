@@ -281,3 +281,16 @@ Use a `foreach` loop to iterate over an entire collection automatically.
 **After watching (learning outcomes)…**
 
 Set up a simple health system that decrements when hit by player bullets.
+
+
+### 35 Level Design Beat Chart ###
+**In this video (objectives)…**
+
+1. Introduction to the concept of the level design beat chart.
+2. See how the ups and downs of a level can be mapped / charted.
+3. Consider the beats of your game in relation to the story you are wanting to tell.
+
+
+**After watching (learning outcomes)…**
+
+Set up a level design beat chart for your level.
