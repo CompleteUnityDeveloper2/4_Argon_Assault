@@ -294,3 +294,17 @@ Set up a simple health system that decrements when hit by player bullets.
 **After watching (learning outcomes)…**
 
 Set up a level design beat chart for your level.
+
+
+### 36 Level Design Iteration ###
+**In this video (objectives)…**
+
+1. Discuss the most important considerations for our level.
+2. Create good spawn points for our enemies.
+3. Match our level design to our beat chart.
+
+
+**After watching (learning outcomes)…**
+
+Created a level which is ready for the final player flight path to be created.
+
