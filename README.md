@@ -308,3 +308,15 @@ Set up a level design beat chart for your level.
 
 Created a level which is ready for the final player flight path to be created.
 
+
+### 37 Introduction To Unity Timeline ###
+**In this video (objectives)…**
+
+1. Set up a Playable Director on one of our enemy ships.
+2. Create a simple animation using timeline for our enemy.
+3. Tweak the position of the enemy so that we can shoot and destroy it.
+
+
+**After watching (learning outcomes)…**
+
+Use Unity Timeline to animate one enemy ship to fly in front of the player.
