@@ -321,6 +321,7 @@ Created a level which is ready for the final player flight path to be created.
 
 Use Unity Timeline to animate one enemy ship to fly in front of the player.
 
+
 ### 38 Unity Timeline For Player Path ###
 **In this video (objectives)…**
 
@@ -332,3 +333,16 @@ Use Unity Timeline to animate one enemy ship to fly in front of the player.
 **After watching (learning outcomes)…**
 
 Use Unity Timeline to create the player flight path.
+
+
+### 39 Unity Timeline Enemy Waves ###
+**In this video (objectives)…**
+
+1. Create a new timeline for an enemy wave.
+2. Add enemy wave to the master timeline through a control track.
+3. Duplicate enemy wave for re-use.
+
+
+**After watching (learning outcomes)…**
+
+Use Unity Timeline to create re-usable enemy waves consisting of multiple enemy animations.
