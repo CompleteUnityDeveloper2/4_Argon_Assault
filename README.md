@@ -320,3 +320,15 @@ Created a level which is ready for the final player flight path to be created.
 **After watching (learning outcomes)…**
 
 Use Unity Timeline to animate one enemy ship to fly in front of the player.
+
+### 38 Unity Timeline For Player Path ###
+**In this video (objectives)…**
+
+1. Create a master timeline to drive all other timelines.
+2. Add player rig to master timline.
+3. Move the player rig through the scene to create the flight path.
+
+
+**After watching (learning outcomes)…**
+
+Use Unity Timeline to create the player flight path.
