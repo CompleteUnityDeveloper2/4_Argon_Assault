@@ -346,3 +346,16 @@ Use Unity Timeline to create the player flight path.
 **After watching (learning outcomes)…**
 
 Use Unity Timeline to create re-usable enemy waves consisting of multiple enemy animations.
+
+
+### 40 Adding Flavour With Timeline ###
+**In this video (objectives)…**
+
+1. Set up timeline track groups.
+2. Brainstorm creative ways to use timeline for your project.
+3. Add something new with timeline - for us it will be a character image with audio during key moments in the level.
+
+
+**After watching (learning outcomes)…**
+
+Use Unity Timeline to create UI popup with audio dialogue.
