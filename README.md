@@ -384,3 +384,12 @@ Turn a particle system emission on and off in C#.
 
 Use lighting, fog and particles to create a visual atmosphere in the level.
 
+
+### 43 Section 4 Wrap-Up ###
+**In this video (objectives)…**
+
+1. Re-iterate some of the core things we have learned in this section of the course.
+
+**After watching (learning outcomes)…**
+
+Ready to take on the next section!
