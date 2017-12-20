@@ -87,8 +87,8 @@ public class PlayerController : MonoBehaviour {
     {
         foreach (GameObject gun in guns) // care may affect death FX
         {
-            var emmissionModule = gun.GetComponent<ParticleSystem>().emission;
-            emmissionModule.enabled = isActive;
+            var emissionModule = gun.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
         }
     }
 }

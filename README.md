@@ -371,3 +371,16 @@ Use Unity Timeline to create UI popup with audio dialogue.
 **After watching (learning outcomes)…**
 
 Turn a particle system emission on and off in C#.
+
+
+### 42 Visual Polish ###
+**In this video (objectives)…**
+
+1. Create an visual atmosphere in our level which matches our intention.
+2. Add particle effects as rocket boosters to ships.
+3. Add fog to our scene to soften the look.
+
+**After watching (learning outcomes)…**
+
+Use lighting, fog and particles to create a visual atmosphere in the level.
+
