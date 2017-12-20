@@ -359,3 +359,15 @@ Use Unity Timeline to create re-usable enemy waves consisting of multiple enemy 
 **After watching (learning outcomes)…**
 
 Use Unity Timeline to create UI popup with audio dialogue.
+
+
+### 41 Stop Particle Emission In C# ###
+**In this video (objectives)…**
+
+1. Refactor our gun enabling code.
+2. Find the particle system emission module.
+3. Stop bullet stream disappearing when we cease fire.
+
+**After watching (learning outcomes)…**
+
+Turn a particle system emission on and off in C#.

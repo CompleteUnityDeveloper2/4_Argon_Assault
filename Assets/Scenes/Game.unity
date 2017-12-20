@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.119149886, g: 0.15470845, b: 0.1182419, a: 1}
+  m_IndirectSpecularColor: {r: 0.11931413, g: 0.15471491, b: 0.11833411, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -961,8 +961,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 222818494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 330.5, y: 186, z: 0}
-  m_LocalScale: {x: 0.34427083, y: 0.34427083, z: 0.34427083}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2070787303}
   - {fileID: 1384181125}
@@ -5161,6 +5161,31 @@ Prefab:
     - target: {fileID: 4630840135328238, guid: 0a39a8497812f514cba1e92b335da14a, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95313396297007292, guid: 0a39a8497812f514cba1e92b335da14a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198073281222238998, guid: 0a39a8497812f514cba1e92b335da14a,
+        type: 2}
+      propertyPath: randomSeed
+      value: 248304743
+      objectReference: {fileID: 0}
+    - target: {fileID: 198073281222238998, guid: 0a39a8497812f514cba1e92b335da14a,
+        type: 2}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198159992205023572, guid: 0a39a8497812f514cba1e92b335da14a,
+        type: 2}
+      propertyPath: randomSeed
+      value: -387169406
+      objectReference: {fileID: 0}
+    - target: {fileID: 198159992205023572, guid: 0a39a8497812f514cba1e92b335da14a,
+        type: 2}
+      propertyPath: EmissionModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a39a8497812f514cba1e92b335da14a, type: 2}
