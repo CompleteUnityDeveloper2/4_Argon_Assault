@@ -65,6 +65,11 @@ Here are the lectures of the course for this section...
 3. Use the `WaypointProgressTracker.cs` script.
 4. Make the camera follow a fixed path.
 
+### 10b Instructor Hangout 4.1 ###
+1. Considerations for Waypoint system versus Timeline.
+2. Q&A answers and responses.
+3. Good tips from students.
+
 ### 11 Using Cross Platform Input ###
 1. About using virtual controls.
 2. Introducing `CrossPlatformInputManager`.
