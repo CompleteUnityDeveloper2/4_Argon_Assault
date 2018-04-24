@@ -122,6 +122,11 @@ Here are the lectures of the course for this section...
 2. Create placeholder enemies for the player to aim at and shoot.
 3. Create 10-20 seconds of gameplay setup, ready for our functionality.
 
+### 20b Instructor Hangout 4.2 ###
+1. Deep dive into the player movement including understanding why we have created xOffset, what exactly Time.deltaTime is calculating and why we clamp our movement.
+2. Q&A answers and responses.
+3. Good tips from students.
+
 ### 21 Project Tidying Checklist ###
 In this video (objectives)...
 1. Organise Assets folder.
