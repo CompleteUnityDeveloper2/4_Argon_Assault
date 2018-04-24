@@ -243,6 +243,18 @@ Add UI text elements to the game, and position and scale them. Also find and use
 
 Describe in basic terms what a class is in Object Oriented Programming (OOP).
 
+
+### 30b Instructor Hangout 4.3 ###
+**In this video (objectives)…**
+
+1. Deep discussion regarding Component.SendMessage.
+2. Some tips from students.
+3. Some questions from students.
+
+**After watching (learning outcomes)…**
+
+Have greater clarity on how Messages are used.
+
 ### 31 Introducing Encapsulation ###
 **In this video (objectives)…**
 
